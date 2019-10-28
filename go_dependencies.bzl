@@ -220,3 +220,8 @@ def bb_storage_go_dependencies():
         importpath = "github.com/fatih/color",
     )
 
+    go_repository(
+        name = "org_golang_google_grpc",
+        importpath = "google.golang.org/grpc",
+        tag = "v1.24.0",
+    )
